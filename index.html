@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Frontend Mentor - Sunnyside agency landing page</title>
+    <script src="https://kit.fontawesome.com/3ebabad534.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="wrapper">
+        <nav class="navbar">
+            <div class="logonav">
+                <img src="images/logo.svg" alt="logo" class="logo">
+            </div>
+            <ul class="menu">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li id="contact"><a href="#">CONTACT</a></li>
+            </ul>
+            <div class="menu-icon">
+                <img src="images/icon-hamburger.svg" alt="icon-hamburger" onclick="menuTrigger()">
+            </div>
+        </nav>
+        <div id="header">
+            <div class="center">
+                <h1>WE ARE CREATIVES</h1>
+            </div>
+            <div class="center arrow">
+                <img src="images/icon-arrow-down.svg" alt="arrow-down">
+            </div>
+        </div>
+        <section>
+            <div>
+                <div id="transform">
+                    <div class="brand grid-item-1">
+                        <h2>Transform your brand</h2>
+                        <p class="transform-text">We are a full-service creative agency specializing in helping brands grow fast. 
+                           Engage your clients through compelling visuals that do most of the marketing for you.</p>
+                        <a href="#"><span>LEARN MORE</span></a>
+                    </div>
+                    <div class="grid-item-2">
+                        <img src="images/desktop/image-transform.jpg" alt="image-transform" >
+                    </div>
+                    <div class="grid-item-3">
+                        <img src="images/desktop/image-stand-out.jpg" alt="image-stand-out">
+                    </div>
+                    <div class="audience grid-item-4">
+                        <h2>Stand out to the right audience</h2>
+                        <p class="transform-text">Using a collaborative formula of designers, researchers, photographers, videographers, and 
+                           copywriters, we’ll build and extend your brand in digital places.</p>
+                        <a href="#"><span>LEARN MORE</span></a>
+                    </div>
+                    <div id="graphics" class="grid-item-5">
+                        <div>
+                            <img src="images/desktop/image-graphic-design.jpg" alt="image-graphic-design" class="cherry-pix-desktop">
+                            <img src="images/mobile/image-graphic-design.jpg" alt="image-graphic-design-mobile" class="cherry-pix-mobile">
+                        </div>
+                        <div id="design">
+                        <h3>Graphic Design</h3>
+                        <p class="transform-text">Great design makes you memorable. We deliver artwork that underscores your brand message 
+                            and captures potential clients’ attention.</p>
+                        </div>
+                    </div>
+                    <div id="photography" class="grid-item-6">
+                        <div>
+                            <img src="images/desktop/image-photography.jpg" alt="image-photography" class="orange-pix-desktop">
+                            <img src="images/mobile/image-photography.jpg" alt="image-photography-mobile" class="orange-pix-mobile">
+                        </div>
+                        <div id="photo">
+                        <h3>Photography</h3>
+                        <p class="transform-text">Increase your credibility by getting the most stunning, high-quality photos that improve your
+                           business image. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div id="testimonials-text">
+                    <h4>CLIENT TESTIMONIALS</h4>
+                </div>
+                <div id="testimonials">
+                    <div class="testimony">
+                        <div>
+                        <img src="images/image-emily.jpg" alt="image-emily" class="testimony-img">
+                        </div>
+                        <div>
+                        <p class="testimony-text">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines
+                           were always hit.
+                        </p>
+                        </div>
+                        <div>
+                            <h5>Emily R.</h5>
+                            <h6>Marketing Director</h6>
+                        </div>
+                    </div>
+                    <div class="testimony">
+                        <div>
+                        <img src="images/image-thomas.jpg" alt="image-thomas" class="testimony-img">
+                        </div>
+                        <div>
+                        <p class="testimony-text">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a 
+                            satisfying and enjoyable experience.
+                        </p>
+                        </div>
+                        <div>
+                            <h5>Thomas S.</h5>
+                            <h6>Chief Operating Officer</h6>
+                        </div>
+                    </div>
+                    <div class="testimony">
+                        <div>
+                        <img src="images/image-jennie.jpg" alt="image-jennie" class="testimony-img">
+                        </div>
+                        <div>
+                        <p class="testimony-text">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
+                        </p>
+                        </div>
+                        <div>
+                            <h5>Jennie F.</h5>
+                            <h6>Business Owner</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="gallery-wrapper">
+                <div class="gallery">
+                    <div>
+                    <img src="images/desktop/image-gallery-milkbottles.jpg" alt="image-gallery-milkbottles">
+                    </div>
+                    <div>
+                    <img src="images/desktop/image-gallery-orange.jpg" alt="image-gallery-orange">
+                    </div>
+                    <div>
+                    <img src="images/desktop/image-gallery-cone.jpg" alt="image-gallery-cone">
+                    </div>
+                    <div>
+                    <img src="images/desktop/image-gallery-sugarcubes.jpg" alt="image-gallery-sugarcubes">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div>
+                <div>
+                <a href="#">
+                    <img src="images/logo.svg" alt="logo" class="footer-logo">
+                </a>
+                </div>
+                <div>
+                <ul class="footer-links">
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <a href="#">Projects</a>
+                    </li>
+                </ul>
+                </div>
+                <div id="socials">
+                    <a href="https://www.facebook.com" target="_blank">
+                        <img src="images/icon-facebook.svg" alt="icon-facebook" id="fb-icon">
+                    </a>
+                    <a href="https://www.instagram.com" target="_blank">
+                        <img src="images/icon-instagram.svg" alt="icon-instagram">
+                    </a>
+                    <a href="https://www.twitter.com" target="_blank">
+                        <img src="images/icon-twitter.svg" alt="icon-twitter">
+                    </a>
+                    <a href="https://www.pinterest.com" target="_blank">
+                        <img src="images/icon-pinterest.svg" alt="icon-pinterest">
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>   
+
+    <script>
+        function menuTrigger() {
+            document.querySelector(".menu").classList.toggle("open");
+        }
+    </script>
+</body>
+</html>
